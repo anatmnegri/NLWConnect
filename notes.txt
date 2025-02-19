@@ -1,0 +1,32 @@
+#Components
+- Funções que retornam html
+
+#Propriedades
+- Atributos que posso passar na hora de chamar o Componente
+- interface ButtonProps extends ComponentProps<"button"> {}
+    > O component recebe todas as propriedades que um elemento button tem
+
+
+#Tailwind
+- Possibilita fazer estilizações utilizando classes utilitárias
+- Permite criar classes personalizadas para estilizar elementos
+- Theme first: há uma padronização, você define o tema e reutiliza, sempre seguindo a padronização
+- Por padrão remove toda a estilização base dos elementos html
+- --color-*: initial
+    > Faz com que as outras cores do Tailwind sumam, só fica disponível o que está dentro do theme criado no globals.css 
+- --font-sans:
+    > é a font padrão que será usada na aplicação
+-w-full
+    > faz com que o elemento tenha o tamanho máximo possível
+
+
+#Instalações 
+- npm i lucide-react
+    >icones
+
+#Imports
+- import { Montserrat, Oxanium } from 'next/font/google': O next facilita a importação de fonts do google
+
+#Extensões
+-PostCSS Language Support
+    > Suporte ao PostCSS
