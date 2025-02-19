@@ -18,7 +18,8 @@
     > é a font padrão que será usada na aplicação
 -w-full
     > faz com que o elemento tenha o tamanho máximo possível
-
+- className = "group"
+    > Permite definir o estilo com base no estado do elemento superior
 
 #Instalações 
 - npm i lucide-react
@@ -30,3 +31,7 @@
 #Extensões
 -PostCSS Language Support
     > Suporte ao PostCSS
+
+#Composition partner
+- O componente pode ser usado em outro componente, como uma função que pode ser chamada em outro
+- Quebrar um component em vários, ex no component button
