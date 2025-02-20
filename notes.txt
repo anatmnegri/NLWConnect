@@ -1,5 +1,6 @@
 #Components
 - Funções que retornam html
+- Usa quando algo se repete muiuto ou quando um arquivo principal dica muito extenso.
 
 #Propriedades
 - Atributos que posso passar na hora de chamar o Componente
