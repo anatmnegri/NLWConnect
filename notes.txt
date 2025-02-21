@@ -25,9 +25,16 @@
 #Instalações 
 - npm i lucide-react
     >icones
+ npm i react-hook-form
+    >formulários
+ npm i zod @hookform/resolvers
+    >Biblioteca de validação de formulários
 
 #Imports
 - import { Montserrat, Oxanium } from 'next/font/google': O next facilita a importação de fonts do google
+- import { Copy, Link } from "lucide-react";
+    >
+
 
 #Extensões
 -PostCSS Language Support
@@ -36,3 +43,7 @@
 #Composition partner
 - O componente pode ser usado em outro componente, como uma função que pode ser chamada em outro
 - Quebrar um component em vários, ex no component button
+
+
+#Next.js
+"use client": next.js, para quando há interação
